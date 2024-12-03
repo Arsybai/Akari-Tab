@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Akari Watanabe",
+    "version": "1.0",
+    "description": "Custom shortcut dashboard for Chrome",
+    "permissions": ["storage"],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  

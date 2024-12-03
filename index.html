@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akari Watanabe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parallax">
+        <!-- Layer Back -->
+        <div class="layer back">
+            <div class="background" style="background-image: url(/bg.png);"></div>
+        </div>
+
+        <!-- layer back content  -->
+        <div class="layer back-content">
+            <div class="card weather shadow">
+                <!-- go to https://weatherwidget.io/ for set up this -->
+                <a class="weatherwidget-io" href="https://forecast7.com/en/n7d58110d82/surakarta/" data-label_1="SURAKARTA" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="3" data-theme="pure" >SURAKARTA WEATHER</a>
+            </div>
+
+            <div class="date" id="date">
+            </div>
+        </div>
+
+        <!-- Layer Mid -->
+        <div class="layer mid">
+            <img src="image.png" alt="Yae Miko" class="character">
+        </div>
+        
+        <!-- Layer Front -->
+        <div class="layer front">
+            <div class="form-group shadow">
+                <img src="ava.jpeg" alt="ava" height="40px" width="40px">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" placeholder="Search..." name="q">
+                </form>
+            </div>
+            <ul class="shortcut-list">
+                <li>
+                    <a href="https://github.com" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=github.com" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=youtube.com" alt="YouTube">
+                        <span>YouTube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://chatgpt.com" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=chatgpt.com" alt="Keep">
+                        <span>Chat GPT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://abye.dev" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=abye.dev" alt="Keep">
+                        <span>Abye</span>
+                    </a>
+                </li>
+                <!-- Tambahkan item lainnya -->
+            </ul>            
+            <div class="content" id="greetings">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
